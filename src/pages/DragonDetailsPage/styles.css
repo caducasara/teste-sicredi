@@ -1,0 +1,99 @@
+.dragon-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.dragon-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dragon-detail img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dragon-detail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.dragon-detail strong {
+  color: #555;
+}
+
+.dragon-detail h3 {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 8px;
+  color: #4a90e2;
+}
+
+.dragon-detail ul {
+  list-style: disc inside;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.dragon-detail ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.detail-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .dragon-detail {
+    margin: 20px 15px;
+    padding: 0 10px;
+  }
+
+  .dragon-detail h1 {
+    font-size: 2rem;
+  }
+
+  .dragon-detail img {
+    max-height: 300px;
+  }
+
+  .dragon-detail h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dragon-detail {
+    margin: 15px 10px;
+    padding: 0 5px;
+  }
+
+  .dragon-detail h1 {
+    font-size: 1.6rem;
+  }
+
+  .dragon-detail p,
+  .dragon-detail ul li {
+    font-size: 0.9rem;
+  }
+
+  .dragon-detail img {
+    max-height: 200px;
+  }
+}
