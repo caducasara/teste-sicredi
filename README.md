@@ -28,7 +28,7 @@ A aplicação possui as seguintes telas:
 | ![Login](./src/assets/login.png) | Tela de login do usuário |
 | ![Home](./src/assets/home.png) | Página inicial com listagem de dragões |
 | ![Create](./src/assets/create.png) | Página para criar um dragão |
-| ![Modify](./src/assets/home.png) | Página para modificar e excluir um dragão |
+| ![Modify](./src/assets/modify.png) | Página para modificar e excluir um dragão |
 | ![Modify](./src/assets/dragon.png) | Página para exibir detalhes de um dragão especifico |
 ---
 
