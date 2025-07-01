@@ -4,11 +4,11 @@
 
 Esta é uma aplicação **React** desenvolvida para o teste de [**Front-End React**] na Sicredi.  
 O objetivo é criar uma página de listagem de Dragões consumindo a API fornecida. Através desta aplicação é possivel listar os dragões em ordem alfabética, visualizar detalhes de um
-dragão especifico, editar um dragão, excluir e criar um dragão. O acesso as páginas citadas só pode ser realizado caso o usuário tenha realizado o login na aplicação, caso contrário
+dragão específico, editar um dragão, excluir e criar um dragão. O acesso as páginas citadas só pode ser realizado caso o usuário tenha realizado o login na aplicação, caso contrário
 a unica tela acessivel será a tela de login.
 
-[**Usuário e senha para acesso:**]:
-**Usuário**: admin
+[**Usuário e senha para acesso:**]:  
+**Usuário**: admin  
 **senha**: 1234
 
 ---
@@ -25,7 +25,7 @@ A aplicação possui as seguintes telas:
 **Exemplos de telas:**  
 | Tela | Descrição |
 |------|------------|
-| ![Login](./screenshots/login.png) | Tela de login do usuário |
+| ![Login](./src/assets/login.png) | Tela de login do usuário |
 | ![Home](./src/assets/home.png) | Página inicial com listagem de dragões |
 | ![Create](./src/assets/create.png) | Página para criar um dragão |
 | ![Modify](./src/assets/home.png) | Página para modificar e excluir um dragão |
@@ -38,7 +38,7 @@ Siga os passos abaixo para clonar e rodar a aplicação na sua máquina:
 
 ```bash
 # Clone o repositório
-git clone hhttps://github.com/caducasara/teste-sicredi.git
+git clone https://github.com/caducasara/teste-sicredi.git
 
 # Acesse a pasta do projeto
 cd PASTA_ONDE_ESTA_O_PROJETO
@@ -74,3 +74,4 @@ Esta aplicação foi construída com as seguintes tecnologias e bibliotecas prin
 - React Router
 - Jest
 - React Testing Library
+- Axios
