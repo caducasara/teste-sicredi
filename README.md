@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# 📌 Teste Front-End React Sicredi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1️⃣ O que é esta aplicação?
 
-## Available Scripts
+Esta é uma aplicação **React** desenvolvida para o teste de [**Front-End React**] na Sicredi.  
+O objetivo é criar uma página de listagem de Dragões consumindo a API fornecida. Através desta aplicação é possivel listar os dragões em ordem alfabética, visualizar detalhes de um
+dragão especifico, editar um dragão, excluir e criar um dragão. O acesso as páginas citadas só pode ser realizado caso o usuário tenha realizado o login na aplicação, caso contrário
+a unica tela acessivel será a tela de login.
 
-In the project directory, you can run:
+[**Usuário e senha para acesso:**]:
+**Usuário**: admin
+**senha**: 1234
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 2️⃣ Telas da aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação possui as seguintes telas:
+- **Tela de Login:** [Tela onde é possivel realizar o login para acessar a aplicação]   
+- **Página inicial:** [Página onde será exibida a listagem de Dragões, onde será possivel selecionar um dragão, navegar até a página para criar um novo dragão e realizar logout]  
+- **Página para um Dragão Específico:** [Página onde será exibida as informações de um dragão especifico]  
+- **Página para Modificar e excluir um Dragão** [Através dessa página é possivel modificar informações de um dragão ou exclui-lo]
+- **Página para criação de um Dragão:** [Através dessa página é possivel criar um dragão]  
 
-### `npm test`
+**Exemplos de telas:**  
+| Tela | Descrição |
+|------|------------|
+| ![Login](./screenshots/login.png) | Tela de login do usuário |
+| ![Home](./src/assets/home.png) | Página inicial com listagem de dragões |
+| ![Create](./src/assets/create.png) | Página para criar um dragão |
+| ![Modify](./src/assets/home.png) | Página para modificar e excluir um dragão |
+| ![Modify](./src/assets/dragon.png) | Página para exibir detalhes de um dragão especifico |
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3️⃣ Como executar o projeto localmente
 
-### `npm run build`
+Siga os passos abaixo para clonar e rodar a aplicação na sua máquina:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone o repositório
+git clone hhttps://github.com/caducasara/teste-sicredi.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Acesse a pasta do projeto
+cd PASTA_ONDE_ESTA_O_PROJETO
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências
+npm install
 
-### `npm run eject`
+# Execute a aplicação em modo de desenvolvimento
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Após executar os comandos o projeto estará sendo executado no seguinte endereço http://localhost:3000/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 4️⃣ Testes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Esta aplicação conta com **testes unitários** e **testes de integração** para garantir a qualidade e a confiabilidade do código.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ✅ **Testes unitários**: Validam funções puras e componentes isolados.
+- ✅ **Testes de integração**: Verificam fluxos completos de navegação e interação entre componentes e páginas.
 
-## Learn More
+Para executar os testes localmente, utilize o comando abaixo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm test
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 5️⃣ Tecnologias utilizadas  
+
+Esta aplicação foi construída com as seguintes tecnologias e bibliotecas principais:
+
+- React
+- TypeScript
+- React Router
+- Jest
+- React Testing Library
