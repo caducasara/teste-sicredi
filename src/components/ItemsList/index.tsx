@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 import "./styles.css"
 import { Dragon } from "../../@types/DragonsInterface";
 
-
 interface ItensListProps {
-    dragon: Dragon
+  dragon: Dragon
 }
 
 export default function ItensList({ dragon }: ItensListProps) {

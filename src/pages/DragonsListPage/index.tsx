@@ -1,6 +1,5 @@
 import "./styles.css"
 import { useEffect, useState } from "react";
-import Header from "../../components/Header";
 import api from "../../services/api";
 import ItensList from "../../components/ItemsList";
 import { Dragon } from "../../@types/DragonsInterface";
